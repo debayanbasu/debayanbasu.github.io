@@ -1,0 +1,77 @@
+.menu-item {
+    height : 60px;
+    width : 200px;
+    color :blue;
+    border-style : dotted;
+    border-color: black;
+    border-radius: 25px;
+    padding: 20px 30px 40px 30px ; 
+    position: absolute;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#intro
+{
+    background-image: linear-gradient(45deg, blue, cyan);
+    left:200px;   
+}
+            
+#about
+{
+    background-image: linear-gradient(-45deg, rgb(47, 0, 255), rgb(104, 17, 131));   
+    left:500px;
+    top:9px;
+}
+#resume
+{
+    background-image: linear-gradient(45deg, rgb(118, 208, 214), rgb(18, 185, 93));
+    left:800px;
+    top:9px;
+}
+#contact
+{
+    background-image: linear-gradient(45deg, rgb(114, 51, 151), rgb(235, 96, 165));
+    left:1100px;
+    top:9px;
+}
+#main-content
+{
+    height : 400px;
+    width : 700px;
+    color :rgb(234, 247, 253);
+    background-color:white;
+    border-style : dotted;
+    border-color: black;
+    background-image: radial-gradient(circle, rgb(52, 160, 118),  rgb(56, 49, 126));
+    padding: 20px 30px 40px 30px;  
+    position: absolute;
+    left:420px;
+    top:250px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: linear-gradient(-45deg, rgb(52, 160, 118), rgb(56, 49, 126));
+}
+#intro:hover{
+    height:80px;
+    width:210px;
+}
+#about:hover{
+    height:80px;
+    width:210px;
+}
+#resume:hover{
+    height:80px;
+    width:210px;
+}
+#contact:hover{
+    height:80px;
+    width:210px;
+}
+h1{
+    color:white;
+    }
+a {
+    text-decoration: none
+}
